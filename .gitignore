@@ -1,2 +1,8 @@
-node_modules/
-!.gitignore
+# package directories
+awscli-bundle
+awscli-bundle.zip
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
