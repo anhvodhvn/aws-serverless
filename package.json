@@ -1,7 +1,10 @@
 {
   "name": "aws-serverless",
-  "version": "1.0.0",
-  "description": "aws-serverless",
+  "version": "1.0.1",
+  "description": "aws serverless sample",
+  "engines": {
+    "node": "^8.11.1"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,9 +15,13 @@
   },
   "author": "voduyanh",
   "email": "voduyanh1984@yahoo.com",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/anhvodhvn/aws-serverless/issues"
   },
-  "homepage": "https://github.com/anhvodhvn/aws-serverless#readme"
+  "homepage": "https://github.com/anhvodhvn/aws-serverless#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0"
+  }
 }

@@ -1,7 +1,8 @@
 'use strict';
+const moment = require('moment');
 
 module.exports.hello = async (event, context) => {
-  const response = {
+  let response = {
     statusCode: 200,
     body: JSON.stringify({
       message: 'Go Serverless v1.0! Your function executed successfully!',
@@ -15,11 +16,12 @@ module.exports.hello = async (event, context) => {
   // return { message: 'Go Serverless v1.0! Your function executed successfully!', event };
 };
 
-module.exports.getCurrentDate = async (event, context) => {
-  const response = {
+module.exports.now = async (event, context) => {
+  let response = {
     statusCode: 200,
     body: JSON.stringify({
-      date: new Date()
+      message: moment(new Date()).format('YYYY-MM-DD HH:mm:ss'),
+      input: event,
     }),
   };
   
