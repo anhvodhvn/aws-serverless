@@ -21,8 +21,12 @@ functions:
       - http:
           path: users/list
           method: get
-  getCurrentDate:
-    handler: handler.getCurrentDate
+  now:
+    handler: handler.now
+    events:
+      - http:
+          path: system/now
+          method: get
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
