@@ -15,8 +15,8 @@ provider:
 #    - exclude-me-dir/**
 
 functions:
-  hello:
-    handler: handler.hello
+  userlist:
+    handler: handler.userlist
     events:
       - http:
           path: users/list
