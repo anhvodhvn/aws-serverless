@@ -21,6 +21,10 @@ module.exports.now = async (event, context) => {
 module.exports.status = async (event, context) => {
   let response = {
     statusCode: 200,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Content-Type': 'application/json'
+    },
     body: JSON.stringify({
       version: info.version,
       name: info.name,
@@ -35,6 +39,10 @@ module.exports.userlist = async (event, context) => {
   let users = userService.getUserList();
   let response = {
     statusCode: 200,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Content-Type': 'application/json'
+    },
     body: JSON.stringify({
       users: users
     }),

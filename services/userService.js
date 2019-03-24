@@ -35,6 +35,27 @@ Factory.getUserList = function() {
 			number: '7',
 			fullName: 'Cristiano Ronaldo',
 			club: 'Manchester United'
+		},
+		{
+			firstName: 'Michael',
+			lastName: 'Owen',
+			number: '7',
+			fullName: 'Michael Owen',
+			club: 'Manchester United'
+		},
+		{
+			firstName: 'Angel',
+			lastName: 'Di Maria',
+			number: '7',
+			fullName: 'Angel Di Maria',
+			club: 'Manchester United'
+		},
+		{
+			firstName: 'Memphis',
+			lastName: 'Depay',
+			number: '7',
+			fullName: 'Memphis Depay',
+			club: 'Manchester United'
 		}
 	];
 	return users;
