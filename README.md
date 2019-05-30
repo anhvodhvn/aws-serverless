@@ -16,8 +16,8 @@ cat ~/.aws/credentials
 serverless deploy
 
 sample endpoint: 
-- https://5gnom1uyy9.execute-api.us-east-1.amazonaws.com/dev/system/now
-- https://5gnom1uyy9.execute-api.us-east-1.amazonaws.com/dev/system/status
+- https://4i2ufdga01.execute-api.us-east-1.amazonaws.com/api/
+- https://4i2ufdga01.execute-api.us-east-1.amazonaws.com/api/status
 
 
 ----------
